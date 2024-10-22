@@ -11,8 +11,6 @@ RUN apt-get update \
   && apt-get install -y python3.11 pip \
   && apt-get update \
   && apt-get install -y \
-     python3.11 \
-     pip \
      sudo \
      gettext \
      # envsubst 사용 할 수 있게 하는 패키지
